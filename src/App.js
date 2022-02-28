@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Login from './pages/login/Login'
 import Signup from './pages/signup/Signup'
-import Navbar from './pages/components/Navbar'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
       </Switch>
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
 export default App;
